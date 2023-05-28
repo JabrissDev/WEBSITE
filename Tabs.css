@@ -1,0 +1,50 @@
+.topnav {
+  user-select: none;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    overflow: hidden;
+
+    -webkit-backdrop-filter: blur(4px);
+    -o-backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+
+    backdrop-filter: blur(4px);
+    background-color: #1b1b1b;
+
+  }
+  
+  .topnav a {
+    float: left;
+    color: #363636;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #1f1f1f;
+    color: rgb(86, 86, 86);
+  }
+  
+  .topnav a.split {
+    color: #1b1b1b;
+    float: right;
+    background-color: #363636;
+  }
+
+  .topnav a.split:hover {
+    float: right;
+    
+    background-color: #1b1b1b;
+
+    -webkit-backdrop-filter: blur(4px);
+    -o-backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+
+    backdrop-filter: blur(4px);
+
+    color: #858585;
+  }

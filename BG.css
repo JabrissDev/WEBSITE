@@ -1,0 +1,48 @@
+.bg-container1 {
+    position: relative;
+    height: 2275px;
+}
+
+.bg-top1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-42%);
+    height: 735px;
+    background: rgb(145, 145, 145);
+}
+
+/*BG No.2*/
+.bg-container2 {
+    position: relative;
+}
+
+.bg-top2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-110%);
+    height: 695px;
+    background: rgb(22, 22, 22);
+}
+
+/*Other 💩*/
+#h1-white {
+    font-size: 80px;
+    color: #1d1d1d;
+}
+
+#h1-black {
+    font-size: 80px;
+    color: rgb(145, 145, 145);
+}
+
+#paragraph-white{
+    font-size: 30px;
+}
+
+#paragraph-black{
+    font-size: 30px;
+}

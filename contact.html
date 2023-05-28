@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JabrissYT | Email Contact</title>
+</head>
+
+    <style>
+        body {
+            margin: 35px 0 20px 0 !important;  
+        }
+
+        h1{
+          font-family: sans-serif;
+          font-size: 40px;
+        }
+
+        textarea{
+          font-size: 17px;
+            width: 1440px;
+            background-color: rgb(205, 205, 205);
+            color: rgb(34, 34, 34);
+            border-radius: 5px;
+            border-color: rgb(56, 56, 56);
+            border-width: 5px;
+        }
+
+        ::placeholder{
+          color: rgba(34, 34, 34, 0.520);
+        }
+
+        textarea::placeholder{
+          text-align: center;
+          font-size: 30px;
+          font-family: sans-serif;
+        }
+
+        input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+        button{
+          background-color: rgb(205, 205, 205);
+          border-radius: 3px;
+          border-color: rgb(56, 56, 56);
+          text-align: 
+        }
+    </style>
+
+<body>
+    <div class="container">
+        <h1>FormSubmit Demo</h1>
+        <form target="_blank" action="https://formsubmit.co/kayaloneg@email.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+        </form>
+      </div>
+</body>
+</html>
